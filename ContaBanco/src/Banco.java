@@ -1,11 +1,10 @@
 public class Banco {
-    int numero = 1021;
 
-    String agencia = "067-8";
+    private int numero = 1021;
+    private String agencia = "067-8";
+    private String nome_cliente = "Gustavo Rodrigues";
+    private float saldo = (float) 237.48;
 
-    String nome_cliente = "Gustavo Rodrigues";
-
-    float saldo = (float) 237.48;
 
     public int Numero(){
         return numero;
@@ -22,5 +21,6 @@ public class Banco {
     public float Saldo() {
         return saldo;
     }
+
     
 }
